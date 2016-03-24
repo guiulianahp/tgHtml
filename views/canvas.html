@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  	<title>SEIVC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css.css">
+  </head>
+
+  <body>
+  
+    <div id="map-canvas"></div>
+
+    <div id="estacionamientos">
+    	<button class="btn btn-default" id ="sendButton" onclick="sonido()"><span class="glyphicon glyphicon-volume-up"></span></button>
+	</div>
+
+	<div id="logo">
+    	<img src="/image/logo.png" width="120">
+	</div>
+  </body>
+
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="http://code.jquery.com/jquery-git2.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="mespeak.js"></script>
+  <script type="text/javascript" src="js/demo.js"></script>
+</html>
